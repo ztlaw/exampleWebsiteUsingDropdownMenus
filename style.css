@@ -59,6 +59,13 @@ table {
     font-family: 'Epilogue', sans-serif;
 }
 
+body{
+    background: url()
+}
+a{
+    text-decoration: none;
+}
+
   main{
       margin: 10% 5%;
       padding-bottom: 5%;
@@ -69,18 +76,30 @@ table {
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-between;
-      /* border: 1px solid black; */
-      margin: 2% 2%;
+     
+      margin: 2% 0;
       padding-top: 3%;
+      
       
   }
 
   .leftNav{
      
       display: flex;
+   
       justify-content: space-between;
       width: 45%;
       padding-left: 0;
+      
+      
+  }
+  .leftNav ul{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: auto;
+      margin: auto;
+      
   }
 
   .rightNav{
@@ -95,7 +114,13 @@ table {
       width: 6em;
       margin-top: -5%;
       border-radius: 10px;
+      background: white;
       
+  }
+
+  .register:hover{
+      background: black;
+      color: white;
   }
 /* MAIN SECTION STYLES. COVERS OVER 50% OF PAGE */
   .main-3-sections{
@@ -130,7 +155,7 @@ table {
   }
 
   .main p{
-      font-size: 1.25em;
+      font-size: 18px;
       color: gray;
      
       
@@ -147,7 +172,8 @@ table {
       
   }
   .main button:hover{
-      opacity: 50%;
+      background: white;
+      color: black;
   }
 
   .sponsors{
@@ -161,3 +187,21 @@ table {
      
      margin: auto;
   }
+
+
+
+
+/* hover mechanics for dropdown menu in .leftNav */
+
+
+
+
+
+
+  /* RESPONSIVE DESIGN STYLES */
+
+@media screen and (max-width: 375px){
+
+
+
+}
