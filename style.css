@@ -55,6 +55,10 @@ table {
   /******************************************
   /* LAYOUT
   /*******************************************/
+*{
+    font-family: 'Epilogue', sans-serif;
+}
+
   main{
       margin: 10% 5%;
       border: 1px solid blue;
@@ -97,7 +101,7 @@ table {
     border: 1px solid red;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 5%;
   }
 
@@ -105,4 +109,30 @@ table {
       width: 60%;
       height: auto;
       margin-left: 25%;
+  }
+/* STYLES ON THE MAIN LEFT SIDE OF PAGE */
+  .main{
+      width: 38%;
+      margin-left: 5%;
+      border: 1px solid orange;
+  }
+
+  .main h1{
+      font-size: 4rem;
+      border: 1px solid black;
+  }
+
+  .main p{
+      font-size: 1.25em;
+      color: gray;
+  }
+
+  .main button{
+      margin-top: 15%;
+      background: black;
+      color: white;
+      width: 30%;
+      height: 8%;
+      border-radius: 15px;
+      
   }
