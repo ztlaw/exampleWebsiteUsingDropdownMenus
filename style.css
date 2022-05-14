@@ -194,10 +194,10 @@ a{
 /* hover mechanics for dropdown menu in .leftNav */
 
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+   
+   
     padding: 16px;
-    font-size: 16px;
+    
     border: none;
   }
 
@@ -212,7 +212,7 @@ a{
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+     z-index: 1;
   }
 
   .dropdown-content a {
@@ -229,7 +229,25 @@ a{
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.dropdown #upArrow{
+    display: none; /* by default, the up arrow is hidden and down arrow is shown */
+}
+.dropdown:hover #upArrow{ /* upon hovering, the up arrow is displayed instead of the down arrow */
+    display: inline;
+}
+
+.dropdown:hover span{ /* hiding the down arrow upon hovering */
+   display: none;
+    
+}
+
 
 
 
