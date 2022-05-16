@@ -59,9 +59,7 @@ table {
     font-family: 'Epilogue', sans-serif;
 }
 
-body{
-    background: url()
-}
+
 a{
     text-decoration: none;
 }
@@ -260,6 +258,9 @@ a{
 .media-nav{
     display: none;
 }
+.mobile-image{
+    display: none;
+}
 
 
   /* RESPONSIVE DESIGN STYLES */
@@ -319,6 +320,9 @@ table {
 .leftNav li{
     display: none;
 }
+.cpu-image{
+    display: none;
+}
 
 
 
@@ -356,10 +360,74 @@ header{
     padding-top: 0.3%
     
 }
+.leftNav img+img:hover{
+    cursor: pointer;
+}
 
 
 .main h1{
-    border: 1px solid black;
+   
+    font-size: 1.6em;
+    text-align: center;
+    width: 100%;
+    margin: 15% auto 8%;
+    padding: 0 1%;
+    font-weight: 700;
+}
+.main p{
+    font-size: 1em;
+  line-height: 1.5em;
+    margin: auto 4%;
+    padding: 0;
+    
+}
+
+.mobile-image{
+  display: inline-block;
+   
+   
+
+  
+}
+
+.main{
+   
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+   
+}
+.main button{
+   
+    margin: 10% 30%;
+    height: 50px;
+    width: auto;
+    
+}
+.rightImage{
+    
+    height: 40%;
+}
+.rightImage > img{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main-3-sections{
+ 
+    display: flex;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+    flex-direction: column-reverse;
+}
+body{
+
+    display: block;
+    height: 100%;
 }
 
 }
