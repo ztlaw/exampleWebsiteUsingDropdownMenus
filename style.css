@@ -261,6 +261,9 @@ a{
 .mobile-image{
     display: none;
 }
+.sideMenuClose{
+    display: none;
+}
 
 
   /* RESPONSIVE DESIGN STYLES */
@@ -429,5 +432,20 @@ body{
     display: block;
     height: 100%;
 }
+
+
+
+/* SIDEBAR MENU STYLINGS */
+
+#hamburger-menu, #sidebar-menu {
+    visibilty: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    transition: 0.3s;
+}
+
 
 }
