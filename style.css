@@ -437,12 +437,12 @@ body{
 
 /* SIDEBAR MENU STYLINGS */
 
-#hamburger-menu, #sidebar-menu {
-    visibilty: hidden;
+#sidebar-menu {
+   /* visibility: hidden; */
     position: fixed;
     top: 0;
-    left: -250px;
-    width: 200px;
+    
+    width: 40%;
     height: 100%;
     transition: 0.3s;
 }
